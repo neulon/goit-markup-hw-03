@@ -43,6 +43,7 @@ h1,h2,h3,ul,p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom : 1px solid #ECECEC;
 }
 
 .link {
@@ -178,7 +179,11 @@ h1,h2,h3,ul,p {
 }
 
 .feature-item {
-  height: 100px;
+  width: 270px;
+}
+
+.feature-title {
+  margin-bottom: 10px;
 }
 
 .section-title {
