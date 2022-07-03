@@ -6,30 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="header container">
-        <nav class="nav-header">
-            <a href="./index.html" class="logo link">Web<span class="logo-black">Studio</span></a>
-            <ul class="nav-list list">
-                <li class="nav-item"><a href="./index.html" class="nav-link link">Студия</a></li>
-                <li class="nav-item"><a href="" class="nav-link active link">Портфолио</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link">Контакты</a></li>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav-header">
+                <a href="./index.html" class="logo link">Web<span class="logo-black">Studio</span></a>
+                <ul class="nav-list list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link link">Студия</a></li>
+                    <li class="nav-item"><a href="" class="nav-link active link">Портфолио</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts-list list">
+                <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a></li>
+                <li class="contacts-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contacts-list list">
-            <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a></li>
-            <li class="contacts-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div class="container content">
+        <section class="job section">
+            <div class="container">
                 <h1 class="hidden-section-title">
                     Нашы работы
                 </h1>
@@ -51,8 +54,8 @@
                         <button type="button" class="filter-button">Маркетинг</button>
                     </li>
                 </ul>
-                <ul class="list job-list">
-                    <li class="job-item">
+                <ul class="list job-list card-set">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgnote.jpg" alt="Карточки команды еа мониторе" width="370" height="294">
                             <div class="job-container">
@@ -61,7 +64,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgBB.jpg" alt="Баскетдолисты в игре" width="370" height="294">
                             <div class="job-container">
@@ -70,7 +73,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgsea.jpg" alt="Логотип ресторана морепродуктов" width="370" height="294">
                             <div class="job-container">
@@ -79,7 +82,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgHearphone.jpg" alt="Наушники" width="370" height="294">
                             <div class="job-container">
@@ -88,7 +91,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgboxes.jpg" alt="2 картонные коробки" width="370" height="294">
                            <div class="job-container">
@@ -97,7 +100,7 @@
                            </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgmonitor.jpg" alt="Монитор с картой мира" width="370" height="294">
                             <div class="job-container">
@@ -106,7 +109,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgbook.jpg" alt="Журнал" width="370" height="294">
                             <div class="job-container">
@@ -115,7 +118,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imglable.jpg" alt="Этиектка" width="370" height="294">
                             <div class="job-container">
@@ -124,7 +127,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="job-item">
+                    <li class="job-item card-item3">
                         <a href="" class="link" >
                             <img src="./images/imgtype.jpg" alt="Человек печатает на ноутбуке" width="370" height="294">
                             <div class="job-container">
